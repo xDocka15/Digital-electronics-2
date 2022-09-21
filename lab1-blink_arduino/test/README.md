@@ -15,7 +15,22 @@ int main(void)
     {
         // Generate a lettre `A` Morse code
 
-        // WRITE YOUR CODE HERE
+        led_value = HIGH;
+      digitalWrite(LED_GREEN, led_value);
+      _delay_ms(SHORT_DELAY);
+
+      led_value = LOW;
+      digitalWrite(LED_GREEN, led_value);
+      _delay_ms(SHORT_DELAY);
+
+      led_value = HIGH;
+      digitalWrite(LED_GREEN, led_value);
+      _delay_ms(LONG_DELAY);
+
+      led_value = LOW;
+      digitalWrite(LED_GREEN, led_value);
+      _delay_ms(LONG_DELAY);
+      _delay_ms(LONG_DELAY);
 
     }
 
