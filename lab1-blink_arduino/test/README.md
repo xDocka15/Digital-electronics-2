@@ -15,7 +15,7 @@ int main(void)
     while (1)
     {
         // Generate a lettre `A` Morse code
-
+        // dot
       led_value = HIGH;
       digitalWrite(LED_GREEN, led_value);
       _delay_ms(SHORT_DELAY);
@@ -24,6 +24,7 @@ int main(void)
       digitalWrite(LED_GREEN, led_value);
       _delay_ms(SHORT_DELAY);
 
+      // dash
       led_value = HIGH;
       digitalWrite(LED_GREEN, led_value);
       _delay_ms(LONG_DELAY);
