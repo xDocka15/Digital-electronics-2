@@ -1,4 +1,4 @@
-# Lab 3: YOUR_FIRSTNAME LASTNAME
+# Lab 3: Tomáš Dočkal
 
 ### Overflow times
 
