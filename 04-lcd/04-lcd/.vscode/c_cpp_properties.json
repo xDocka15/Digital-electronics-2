@@ -1,0 +1,53 @@
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "V:/docka/Digital-electronics-2/04-lcd/04-lcd/include",
+                "V:/docka/Digital-electronics-2/04-lcd/04-lcd/src",
+                "C:/Users/xdocka15/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "C:/Users/xdocka15/.platformio/packages/framework-arduino-avr/variants/standard",
+                "C:/Users/xdocka15/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "C:/Users/xdocka15/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "C:/Users/xdocka15/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "C:/Users/xdocka15/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                "C:/Users/xdocka15/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                "",
+                "V:/docka/Digital-electronics-2/03-interrupts/03-interuptions/lib/GPIO",
+                "${workspaceFolder}/lib/lcd"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "V:/docka/Digital-electronics-2/04-lcd/04-lcd/include",
+                    "V:/docka/Digital-electronics-2/04-lcd/04-lcd/src",
+                    "C:/Users/xdocka15/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "C:/Users/xdocka15/.platformio/packages/framework-arduino-avr/variants/standard",
+                    "C:/Users/xdocka15/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "C:/Users/xdocka15/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "C:/Users/xdocka15/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "C:/Users/xdocka15/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    "C:/Users/xdocka15/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60104",
+                "ARDUINO_AVR_UNO",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__AVR_ATmega328P__",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "C:/Users/xdocka15/.platformio/packages/toolchain-atmelavr/bin/avr-gcc.exe",
+            "compilerArgs": [
+                "-mmcu=atmega328p",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
