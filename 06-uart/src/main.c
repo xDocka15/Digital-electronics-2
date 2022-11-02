@@ -71,6 +71,7 @@ ISR(TIMER1_OVF_vect)
     uint8_t value;
     char string[8];  // String for converted numbers by itoa()
 
+    uart_puts("De2");
     value = uart_getc();
     if (value != '\0') {  // Data available from UART
         // Display ASCII code of received character

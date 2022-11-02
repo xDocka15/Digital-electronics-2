@@ -21,6 +21,8 @@
 ### UART communication
 
 2. Draw timing diagram of the output from UART/USART when transmitting three character data `De2` in 4800 7O2 mode (7 data bits, odd parity, 2 stop bits, 4800&nbsp;Bd). The image can be drawn on a computer or by hand. Name all parts timing diagram.
+D = 0100_0100
+e = 0110_0101
 
    ![your figure]()
 
